@@ -1,7 +1,0 @@
-16:00:55 **** Incremental Build of configuration Debug for project SumOfNatualNumbers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SumOfNatualNumbers.o" "..\\src\\SumOfNatualNumbers.c" 
-gcc -o SumOfNatualNumbers.exe "src\\SumOfNatualNumbers.o" 
-
-16:00:56 Build Finished. 0 errors, 0 warnings. (took 541ms)
-
