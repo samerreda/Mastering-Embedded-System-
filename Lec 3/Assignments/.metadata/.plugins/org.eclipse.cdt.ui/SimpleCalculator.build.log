@@ -1,0 +1,7 @@
+21:17:27 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SimpleCalculator.o" "..\\src\\SimpleCalculator.c" 
+gcc -o SimpleCalculator.exe "src\\SimpleCalculator.o" 
+
+21:17:28 Build Finished. 0 errors, 0 warnings. (took 544ms)
+

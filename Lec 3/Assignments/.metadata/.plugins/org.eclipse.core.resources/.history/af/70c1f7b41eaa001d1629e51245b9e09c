@@ -1,0 +1,27 @@
+/*
+ ============================================================================
+ Name        : Facatorial.c
+ Author      : Samer
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+	int i,f;
+	setbuf (stdout,NULL);
+	puts("Factorial value"); /* prints Factorial value */
+
+	printf("Enter an integer number: ");
+	scanf("%d",&f);
+
+	for(i=1;i<=f;++i)
+		f*=i;
+	printf("Factorial = %d",f);
+	return EXIT_SUCCESS;
+}

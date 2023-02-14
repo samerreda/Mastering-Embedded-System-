@@ -1,0 +1,7 @@
+00:22:27 **** Incremental Build of configuration Debug for project SwapWithoutTemp ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o swap_without_temp.o "..\\swap_without_temp.c" 
+gcc -o SwapWithoutTemp.exe swap_without_temp.o 
+
+00:22:28 Build Finished. 0 errors, 0 warnings. (took 710ms)
+

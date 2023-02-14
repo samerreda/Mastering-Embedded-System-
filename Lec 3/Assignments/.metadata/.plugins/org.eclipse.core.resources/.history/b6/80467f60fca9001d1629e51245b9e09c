@@ -1,0 +1,30 @@
+/*
+ ============================================================================
+ Name        : CheckVowelsCharacters.c
+ Author      : Samer
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+	char check_char ;
+	setbuf(stdout,NULL);
+
+	puts("Check Vowels alphapets"); /* prints Check Vowels alphapets */
+
+	printf("Enter an alphabet: ");
+	scanf("%c",&check_char);
+
+	if (check_char=='a'||check_char=='e'||check_char=='i'||check_char=='o'||check_char=='u')
+		printf("%c is a vowel.",check_char);
+	else
+		printf("%c is a consonant.",check_char);
+
+	return EXIT_SUCCESS;
+}
